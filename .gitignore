@@ -1,0 +1,24 @@
+# Build output
+build/
+*.obj
+*.asi
+*.lib
+*.exp
+*.pdb
+
+# Script Hook V SDK: download it yourself from dev-c.com (not redistributed here)
+sdk/
+
+# Extracted game files and third-party mods: never commit these
+peds/
+work/
+*.rpf
+*.ydd
+*.ydr
+*.yft
+*.ytd
+*.dds
+
+# Release staging
+dist/
+__pycache__/
